@@ -1,7 +1,7 @@
 # BitBooster
-This is the repository for the KDD 2021 paper
+This is the repository for the SAC 2022 paper
 
-*BitBooster: Effective Approximation of the Euclidean Distance Metric via Binary Operations* 
+*BitBooster: Effective Approximation of Distance Metrics via Binary Operations* 
 
 ## Introduction
 The idea of this work is that we lower the precision of the data (to $n$ bits per value) and as a result lower the computational complexity of the Euclidean distance metric. The actual implementation of BitBooster (and its competitors) are part of the submodule BitBooster, this repo contains the experimental evaluation implementation.
@@ -36,6 +36,9 @@ python bitbooster/experiment_execution_script synthetic_experiment
 ```
 ```
 python bitbooster/experiment_execution_script real_experiment
+```
+```
+python bitbooster/experiment_execution_script sparsity_experiments
 ```
 
 The real experiment requires user input to determine the eps values. Alternatively, you can call
