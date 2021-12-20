@@ -1,5 +1,5 @@
 # BitBooster
-This is the repository for the SAC 2022 paper
+This is the repository for the COMPSAC 2022 paper
 
 *BitBooster: Effective Approximation of Distance Metrics via Binary Operations* 
 
